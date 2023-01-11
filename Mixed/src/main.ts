@@ -1,9 +1,9 @@
-type Player = {
+interface Player {
   id: string;
   name: string;
   age: number;
   type: string;
-};
+}
 
 const omitObj: Omit<Player, "id"> = {
   name: "Mashrafee Bin Martuza",
